@@ -6,7 +6,7 @@ import { IconType } from "react-icons";
 
 type Skill = {
   name: string;
-  icon: IconType;
+  icon: IconType | null;
   color: string;
 };
 
@@ -66,10 +66,11 @@ export default function Skills() {
       </p>
 
       <div className="flex flex-col gap-8">
-        <SkillGroup title="Programming Languages" items={skills.languages} />
-        <SkillGroup title="Frontend" items={skills.frontend} />
-        <SkillGroup title="Backend" items={skills.backend} />
-        <SkillGroup title="Tools" items={skills.tools} />
+          <SkillGroup title="Programming Languages" items={skills.languages} />
+          <SkillGroup title="Frontend Frameworks" items={skills.frontend} />
+          <SkillGroup title="Backend" items={skills.backend} />
+          <SkillGroup title="Cloud" items={skills.cloud} />
+          <SkillGroup title="Tools" items={skills.tools} />
       </div>
     </section>
   );

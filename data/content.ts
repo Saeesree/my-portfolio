@@ -1,7 +1,8 @@
 import {
   SiReact, SiNextdotjs, SiTypescript, SiTailwindcss, SiHtml5, SiCss3,
-  SiNodedotjs, SiExpress, SiPostgresql, SiMongodb,
+  SiNodedotjs, SiExpress, SiPostgresql,
   SiGit, SiGithub, SiVsco, SiFigma, SiDocker, SiKubernetes, SiPython, SiJavascript, 
+  SiFastapi, SiDotnet, SiMui, SiJira, SiSplunk, SiAmazon,
 } from "react-icons/si";
 // ============================================
 // SITE CONFIG — Update your personal info here
@@ -67,22 +68,28 @@ export const skills = {
     { name: "Python", icon: SiPython, color: "#3776AB" },
     { name: "JavaScript", icon: SiJavascript, color: "#F7DF1E" },
     { name: "TypeScript", icon: SiTypescript, color: "#3178C6" },
-    { name: "C#", icon: null, color: "#239120" },
-  ],  
-
+    { name: "C#", icon: null, color: "#9B4F96" },
+  ],
   frontend: [
     { name: "React", icon: SiReact, color: "#61DAFB" },
     { name: "Next.js", icon: SiNextdotjs, color: "#ffffff" },
-    { name: "TypeScript", icon: SiTypescript, color: "#3178C6" },
     { name: "Tailwind CSS", icon: SiTailwindcss, color: "#06B6D4" },
+    { name: "Material UI", icon: SiMui, color: "#007FFF" },
     { name: "HTML", icon: SiHtml5, color: "#E34F26" },
     { name: "CSS", icon: SiCss3, color: "#1572B6" },
   ],
   backend: [
     { name: "Node.js", icon: SiNodedotjs, color: "#339933" },
     { name: "Express", icon: SiExpress, color: "#ffffff" },
+    { name: "FastAPI", icon: SiFastapi, color: "#009688" },
+    { name: ".NET", icon: SiDotnet, color: "#512BD4" },
     { name: "PostgreSQL", icon: SiPostgresql, color: "#4169E1" },
-    { name: "MongoDB", icon: SiMongodb, color: "#47A248" },
+  ],
+  cloud: [
+    { name: "AWS S3", icon: SiAmazon, color: "#FF9900" },
+    { name: "AWS Lambda", icon: SiAmazon, color: "#FF9900" },
+    { name: "AWS EC2", icon: SiAmazon, color: "#FF9900" },
+    { name: "Splunk", icon: SiSplunk, color: "#FF6600" },
   ],
   tools: [
     { name: "Git", icon: SiGit, color: "#F05032" },
@@ -91,6 +98,7 @@ export const skills = {
     { name: "Figma", icon: SiFigma, color: "#F24E1E" },
     { name: "Docker", icon: SiDocker, color: "#2496ED" },
     { name: "Kubernetes", icon: SiKubernetes, color: "#326CE5" },
+    { name: "Jira", icon: SiJira, color: "#0052CC" },
   ],
 };
 
