@@ -1,7 +1,7 @@
 import {
   SiReact, SiNextdotjs, SiTypescript, SiTailwindcss, SiHtml5, SiCss3,
   SiNodedotjs, SiExpress, SiPostgresql, SiMongodb,
-  SiGit, SiGithub, SiVsco, SiFigma, SiDocker, SiKubernetes
+  SiGit, SiGithub, SiVsco, SiFigma, SiDocker, SiKubernetes, SiPython, SiJavascript, 
 } from "react-icons/si";
 // ============================================
 // SITE CONFIG — Update your personal info here
@@ -63,6 +63,13 @@ export const projects = [
 // SKILLS
 // ============================================
 export const skills = {
+  languages: [
+    { name: "Python", icon: SiPython, color: "#3776AB" },
+    { name: "JavaScript", icon: SiJavascript, color: "#F7DF1E" },
+    { name: "TypeScript", icon: SiTypescript, color: "#3178C6" },
+    { name: "C#", icon: null, color: "#239120" },
+  ],  
+
   frontend: [
     { name: "React", icon: SiReact, color: "#61DAFB" },
     { name: "Next.js", icon: SiNextdotjs, color: "#ffffff" },
@@ -145,12 +152,11 @@ export const education = [
 // INTERESTS
 // ============================================
 export const interests = [
-  { emoji: "🧩", label: "NeetCode", link: "https://neetcode.io/profile/yourusername" },
-  { emoji: "💻", label: "Open Source", link: "" },
-  { emoji: "🎮", label: "Gaming", link: "" },
-  { emoji: "📚", label: "Reading", link: "" },
-  { emoji: "🏃", label: "Running", link: "" },
-  { emoji: "🎵", label: "Music", link: "" },
-  { emoji: "✈️", label: "Travelling", link: "" },
+  { label: "NeetCode", link: "https://neetcode.io/profile/yourusername" },
+  { label: "Open Source", link: "" },
+  { label: "Reading", link: "" },
+  { label: "Running", link: "" },
+  { label: "Music", link: "" },
+  { label: "Travelling", link: "" },
   
 ];

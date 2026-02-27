@@ -14,7 +14,6 @@ export default function Interests() {
         {interests.map((interest, index) => {
           const content = (
             <div className="flex items-center gap-3">
-              <span className="text-2xl">{interest.emoji}</span>
               <span className="text-zinc-700 dark:text-zinc-300 text-sm font-medium">
                 {interest.label}
               </span>

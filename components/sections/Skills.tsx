@@ -18,7 +18,16 @@ function SkillBadge({ skill }: { skill: Skill }) {
       whileTap={{ scale: 0.95 }}
       className="flex items-center gap-2 px-4 py-2 rounded-lg border border-zinc-700 dark:border-zinc-700 bg-zinc-900 dark:bg-zinc-900 cursor-default"
     >
-      <Icon size={16} style={{ color: skill.color }} />
+      {Icon ? (
+        <Icon size={16} style={{ color: skill.color }} />
+      ) : (
+        <span
+          className="text-xs font-bold w-4 h-4 flex items-center justify-center"
+          style={{ color: skill.color }}
+        >
+          C#
+        </span>
+      )}
       <span className="text-sm text-zinc-200 font-medium">{skill.name}</span>
     </motion.div>
   );
@@ -57,6 +66,7 @@ export default function Skills() {
       </p>
 
       <div className="flex flex-col gap-8">
+        <SkillGroup title="Programming Languages" items={skills.languages} />
         <SkillGroup title="Frontend" items={skills.frontend} />
         <SkillGroup title="Backend" items={skills.backend} />
         <SkillGroup title="Tools" items={skills.tools} />
