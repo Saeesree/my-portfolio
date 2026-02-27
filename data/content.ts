@@ -145,11 +145,12 @@ export const education = [
 // INTERESTS
 // ============================================
 export const interests = [
-  { emoji: "🧠  🚀 ", label: "NeetCode" },
-  { emoji: "💻", label: "Open Source" },
-  { emoji: "⚙️ ", label: "System Design" },
-  { emoji: "📚", label: "Reading" },
-  { emoji: "🏃", label: "Running" },
-  { emoji: "🎵", label: "Music" },
+  { emoji: "🧩", label: "NeetCode", link: "https://neetcode.io/profile/yourusername" },
+  { emoji: "💻", label: "Open Source", link: "" },
+  { emoji: "🎮", label: "Gaming", link: "" },
+  { emoji: "📚", label: "Reading", link: "" },
+  { emoji: "🏃", label: "Running", link: "" },
+  { emoji: "🎵", label: "Music", link: "" },
+  { emoji: "✈️", label: "Travelling", link: "" },
   
 ];
