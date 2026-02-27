@@ -9,27 +9,9 @@ export default function AboutMe() {
       <p className="text-zinc-500 dark:text-zinc-400 text-xl font-medium mb-8">
         A little bit about who I am.
       </p>
-
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-        {/* Bio */}
-        <div>
-          <p className="text-zinc-600 dark:text-zinc-400 leading-relaxed text-base">
-            {aboutMe.bio}
-          </p>
-        </div>
-
-        {/* Facts */}
-        <div className="flex flex-col gap-3">
-          {aboutMe.facts.map((fact, index) => (
-            <div
-              key={index}
-              className="px-4 py-3 rounded-lg bg-zinc-100 dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300 text-sm"
-            >
-              {fact}
-            </div>
-          ))}
-        </div>
-      </div>
+      <p className="text-zinc-600 dark:text-zinc-400 leading-relaxed text-base max-w-2xl">
+        {aboutMe.bio}
+      </p>
     </section>
   );
 }

@@ -30,12 +30,6 @@ export const introduction = {
 // ============================================
 export const aboutMe = {
   bio: "I'm a fullstack developer with a passion for creating seamless digital experiences. When I'm not coding, you'll find me exploring new technologies, contributing to open source, or debugging at 2 AM.",
-  facts: [
-    "🌍 Based in Your City, Country",
-    "💼 Open to new opportunities",
-    "🎓 Self-taught / CS Degree (edit this)",
-    "⚡ Fun fact about yourself",
-  ],
 };
 
 // ============================================
