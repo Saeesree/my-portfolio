@@ -1,7 +1,7 @@
 import {
   SiReact, SiNextdotjs, SiTypescript, SiTailwindcss, SiHtml5, SiCss3,
   SiNodedotjs, SiExpress, SiPostgresql, SiMongodb,
-  SiGit, SiGithub, SiVsco, SiFigma, SiDocker
+  SiGit, SiGithub, SiVsco, SiFigma, SiDocker, SiKubernetes
 } from "react-icons/si";
 // ============================================
 // SITE CONFIG — Update your personal info here
@@ -89,6 +89,7 @@ export const skills = {
     { name: "VS Code", icon: SiVsco, color: "#007ACC" },
     { name: "Figma", icon: SiFigma, color: "#F24E1E" },
     { name: "Docker", icon: SiDocker, color: "#2496ED" },
+    { name: "Kubernetes", icon: SiKubernetes, color: "#326CE5" },
   ],
 };
 
