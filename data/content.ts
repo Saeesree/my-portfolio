@@ -23,14 +23,14 @@ export const siteConfig = {
 export const introduction = {
   greeting: "Hi, I'm",
   description:
-    "A passionate Fullstack Developer who loves building modern web applications. I enjoy turning complex problems into simple, beautiful solutions.",
+    "Software engineer with a passion for building impactful digital experiences. I specialize in full-stack development, creating seamless web applications that solve real-world problems. With a strong foundation in both frontend and backend technologies, I thrive on turning complex challenges into elegant solutions.",
 };
 
 // ============================================
 // ABOUT ME
 // ============================================
 export const aboutMe = {
-  bio: "I'm a fullstack developer with a passion for creating seamless digital experiences. When I'm not coding, you'll find me exploring new technologies, contributing to open source, or debugging at 2 AM.",
+  bio: "I am a Software Engineer with a Master’s in Computer Science and five years of experience building scalable web applications. I specialize in developing enterprise backend systems and user-centric interfaces across the fintech, healthcare, and telecommunication domains. My expertise lies in optimizing system performance, implementing secure authorization processes, and automating complex workflows. Ultimately, I am driven to deliver production-ready solutions that consistently improve reliability, latency, and overall user experience.",
 };
 
 // ============================================
@@ -46,10 +46,11 @@ export const projects = [
     live: "",
   },
   {
-    title: "Project Two",
-    description: "A brief description of what this project does and the problem it solves.",
-    tech: ["React", "Node.js", "MongoDB"],
-    github: "https://github.com/Saeesree/project-two",
+    title: "Receipt Parser",
+    description:
+      "An n8n automation workflow that monitors Gmail for receipt emails, extracts structured data (vendor, amount, date, category) using OpenAI GPT-4o-mini, and saves it directly to Google Sheets — fully hands-free expense tracking.",
+    tech: ["n8n", "OpenAI", "Gmail API", "Google Sheets API"],
+    github: "https://github.com/Saeesree/receipt-parser-n8n",
     live: "",
   },
   {
@@ -162,7 +163,7 @@ export const education = [
 // ============================================
 export const interests = [
   { label: "NeetCode", link: "https://neetcode.io/profile/yourusername" },
-  { label: "Open Source", link: "" },
+  { label: "Open Source", link: "https://github.com/Saeesree" },
   { label: "Reading", link: "" },
   { label: "Running", link: "" },
   { label: "Music", link: "" },
