@@ -1,8 +1,8 @@
 import {
   SiReact, SiNextdotjs, SiTypescript, SiTailwindcss, SiHtml5, SiCss3,
   SiNodedotjs, SiExpress, SiPostgresql,
-  SiGit, SiGithub, SiVsco, SiFigma, SiDocker, SiKubernetes, SiPython, SiJavascript, 
-  SiFastapi, SiDotnet, SiMui, SiJira, SiSplunk, SiAmazon, SiOpenai, SiSqlite, SiLangchain,
+  SiGit, SiGithub, SiVsco, SiFigma, SiDocker, SiKubernetes, SiPython, SiJavascript,
+  SiFastapi, SiDotnet, SiMui, SiJira, SiSplunk, SiAmazon,
 } from "react-icons/si";
 // ============================================
 // SITE CONFIG — Update your personal info here
@@ -116,7 +116,7 @@ export const experience = [
     period: "Dec 2024 – Present",
     current: true,
     description:
-      "Describe what you did here — technologies used, impact made, teams worked with.",
+      "Built and maintained a full-stack insurance policy management system covering the full lifecycle — from quoting and creation to renewal and cancellation. Contributed to UI improvements, backend business logic, and automated document workflows. Set up CI/CD pipelines, monitored system health with real-time alerting, and collaborated in Agile sprints to deliver iterative improvements aligned with business needs",
   },
   {
     role: "Software Engineer",
