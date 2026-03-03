@@ -2,7 +2,7 @@ import {
   SiReact, SiNextdotjs, SiTypescript, SiTailwindcss, SiHtml5, SiCss3,
   SiNodedotjs, SiExpress, SiPostgresql,
   SiGit, SiGithub, SiVsco, SiFigma, SiDocker, SiKubernetes, SiPython, SiJavascript, 
-  SiFastapi, SiDotnet, SiMui, SiJira, SiSplunk, SiAmazon,
+  SiFastapi, SiDotnet, SiMui, SiJira, SiSplunk, SiAmazon, SiOpenai, SiSqlite, SiLangchain,
 } from "react-icons/si";
 // ============================================
 // SITE CONFIG — Update your personal info here
@@ -13,7 +13,7 @@ export const siteConfig = {
   tagline: "I build things for the web.",
   email: "you@email.com",
   linkedin: "https://www.linkedin.com/in/thirumala-sai-sriram-p-5a0950199/",
-  github: "https://github.com/yourname",
+  github: "https://github.com/Saeesree",
   resume: "/resume.pdf",
 };
 
@@ -38,24 +38,25 @@ export const aboutMe = {
 // ============================================
 export const projects = [
   {
-    title: "Project One",
-    description: "A brief description of what this project does and the problem it solves.",
-    tech: ["Next.js", "TypeScript", "Tailwind CSS"],
-    github: "https://github.com/yourname/project-one",
-    live: "https://project-one.vercel.app",
+    title: "RAG Document Chat",
+    description:
+      "A full-stack application that lets you upload documents and chat with them using AI. Organize files into notebooks, process them, and ask natural language questions — powered by OpenAI GPT-4o-mini and ChromaDB. Supports PDF, TXT, MD, and DOCX files with a persistent RAG pipeline that skips reprocessing already embedded documents.",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS", "FastAPI", "Python", "OpenAI", "LangChain", "ChromaDB", "SQLite"],
+    github: "https://github.com/Saeesree/rag-document-chat",
+    live: "",
   },
   {
     title: "Project Two",
     description: "A brief description of what this project does and the problem it solves.",
     tech: ["React", "Node.js", "MongoDB"],
-    github: "https://github.com/yourname/project-two",
+    github: "https://github.com/Saeesree/project-two",
     live: "",
   },
   {
     title: "Project Three",
     description: "A brief description of what this project does and the problem it solves.",
     tech: ["Vue.js", "Express", "PostgreSQL"],
-    github: "https://github.com/yourname/project-three",
+    github: "https://github.com/Saeesree/project-three",
     live: "https://project-three.vercel.app",
   },
 ];
@@ -166,5 +167,4 @@ export const interests = [
   { label: "Running", link: "" },
   { label: "Music", link: "" },
   { label: "Travelling", link: "" },
-  
 ];
