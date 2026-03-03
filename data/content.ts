@@ -54,11 +54,12 @@ export const projects = [
     live: "",
   },
   {
-    title: "Project Three",
-    description: "A brief description of what this project does and the problem it solves.",
-    tech: ["Vue.js", "Express", "PostgreSQL"],
-    github: "https://github.com/Saeesree/project-three",
-    live: "https://project-three.vercel.app",
+    title: "GitHub Trending Daily Digest",
+    description:
+      "An n8n automation workflow that scrapes GitHub Trending daily, extracts repository details (name, description, language, stars), and delivers a beautifully formatted HTML email digest — automatically scheduled every morning.",
+    tech: ["n8n", "Gmail API", "RSS", "HTML Email"],
+    github: "https://github.com/Saeesree/Daily_digest_from-email_RSS_Todo",
+    live: "",
   },
 ];
 
